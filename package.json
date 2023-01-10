@@ -1,0 +1,33 @@
+{
+  "name": "landing-page-design",
+  "version": "0.0.1",
+  "description": "Landing page website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/propLGlobal/landing-page-design.git"
+  },
+  "keywords": [
+    "Landing",
+    "page",
+    "website",
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Ethmane Didi <ethmane@propl.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/propLGlobal/landing-page-design/issues"
+  },
+  "homepage": "https://github.com/propLGlobal/landing-page-design#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "live-server": "^1.2.2",
+    "sass": "^1.57.1"
+  }
+}
