@@ -1,8 +1,21 @@
-$blue: blue;
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-.test{
-  display: block;
-  &-button{
-    background-color: blue;
-  }
+.logo {
+  float: right;
+}
+.navbar {
+  float: left;
+}
+.call-action {
+  float: right;
+}
+.card {
+  margin: 20px;
+}
+.card-text {
+  margin: 10px;
+}
+.footer {
+  text-align: center;
+  margin: 20px;
 }
