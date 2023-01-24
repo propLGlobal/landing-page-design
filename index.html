@@ -5,121 +5,290 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Work simulations for effective recruitment.Strengthen employer branding and candidate outreach for companies. Allow candidates to showcase their skills and knowledge."
+    <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/03d5a1f99a.js" crossorigin="anonymous"></script>
+
   <title>Propl Landing Page</title>
+
+  <!-- SCSS style link  -->
   <link rel="stylesheet" href="/dist/css/style.css">
-</head>
-
 
 </head>
 
-<body>
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-light navbar-toggleable-sm">
-        <a href="#" class="navbar-brand mb-0">Propl</a>
+<body class="bg-primary">
+  <!-- Navbar section -->
+  <header class="bg-light">
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo-image" src="/assets/img/logo-propl.png" alt=" logo image">
+        </a>
 
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-          data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="#">Candidate <i class="fa-sharp fa-solid fa-users-viewfinder"></i></a>
+            <a class="nav-link me-5" href="#">Employer <i class="fa-regular fa-circle-user"></i> </a>
+          </div>
+          <!-- <a href="#" class="btn btn-secondary">Apply Here</a> -->
+        </div>
+      </div>
+    </nav>
+  </header>
 
-        <div id="headerNav" class="collapse navbar-collapse justify-content-end">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#sec-about">About</a>
-            </li>
+  <main>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <!-- Text -->
+          <div class="col-md-6">
+            <!-- Heading -->
+            <div class="heading">
+              <h1 class="display-3 text-center text-md-start">
+                Welcome to <span class="text-white">Propl </span>. <br>
+                Empowering careers, connecting talents
+              </h1>
+              <!-- Text -->
+              <p class="lead text-center text-md-start  mb-6 mb-lg-8">
+                Virtual work experience that makes recruitment process engaging and effective
+              </p>
+            </div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#sec-features">Features</a>
-            </li>
+            <!-- Buttons -->
+            <div class="buttons text-center text-md-start">
+              <a href="#" class="btn btn-primary shadow lift me-1"> <i class="fa-solid fa-right-from-bracket 2-x"></i>
+                Employer Sign Up Nows
+              </a>
+              <a href="#" class="btn btn-secondary shadow lift me-1 "> <i class="fa-solid fa-user-plus"></i>
+                Candidate click here
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <!-- Image -->
+            <figure class="image-figure">
+              <img src="./assets/img/hreo-img.png" class="w-100" alt="hero-image" data-aos="fade-down"
+                data-aos-delay="100" style="border-radius: 48px 48px 300px 48px;">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- setup section -->
+    <section class="setup">
+      <div class="container">
+        <div class="text-header text-center">
+          <h2 class="mb-lg-5">How our process works for you as a hiring manager</h2>
+          
+        </div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#sec-pricing">Pricing</a>
-            </li>
+        <div class="items text-right">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img class="fixed-size-img" src="./assets/img/define.jpg"
+                  alt="A person interviewing another person, both are sitting at a desk, with a notebook and pen on the table">
+              </div>
+              <div class="desc">
+                <h3>Define</h3>
+                <p>Define a job simulation that fits the role you are recruiting for, or choose existing examples from
+                  our library</p>
+              </div>
+            </div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#sec-testimonials">Testimonials</a>
-            </li>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="fixed-size-img" src="./assets/img/publish.png"
+                  alt="A person interviewing another person, both are sitting at a desk, with a notebook and pen on the table">
+              </div>
+              <div class="desc">
+                <h3>Publish</h3>
+                <p>Publish simulations as a part of your employer branding and recruitment</p>
+              </div>
+            </div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#sec-contact">Contact</a>
-            </li>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="fixed-size-img" src="./assets/img/evaluate.png" alt="Image">
+              </div>
+              <div class="desc">
+                <h3>Evaluate</h3>
+                <p>Evaluate candidate’s performance through simulations or search for candidates that match your hiring
+                  requirements in our
+                  database</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our customers section  logos-->
+    <section class="customers-logos">
+      <div class="container">
+        <div class="rom info-1">
+          <!-- Text -->
+          <div class="col-md-6">
+            <div class="text-information">
+              <h3>Our customers</h3>
+
+            </div>
+          </div>
+          <!-- Images -->
+          <div class="row align-items-start img-logo">
+            <div class="col">
+              <img class="fixed-size-img" src="./assets/img/startup-norway.png" alt="logo">
+            </div>
+            <div class="col">
+              <img class="fixed-size-img" src="./assets/img/energy.png" alt="logo">
+            </div>
+            <div class="col">
+              <img class="fixed-size-img" src="./assets/img/againx-logo.png" alt="logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--How we help -->
+    <Section class="we-help-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card-b">
+              <h5 class="align-items-center mb-5"> 1. Save time </h5>
+              <p> As a hiring manager, you will be able receive profiles of candidates who have
+                performed job simulations with an overview
+                of their skills and knowledge. This can be integrated into your ATS to help you select the best
+                candidates for your next
+                hiring process.</p>
+              <a href="#" class="btn btn-primary">View here</a>
+            </div>
+          </div>
+
+          <div class="col-md-4 ">
+            <div class="card-b">
+              <h5 class="align-items-center mb-5"> 2. Access to candidate pool </h5>
+              <p> Job simulations are available all year round, which helps attract candidates that may not be actively
+                looking for a new
+                job, but are considering a career change.</p>
+              <a href="#" class="btn btn-primary">View here</a>
+            </div>
+          </div>
+
+          <div class="col-md-4 ">
+            <div class="card-b">
+              <h5 class="align-items-center mb-5">3. Strengthen employer branding </h5>
+              <p>Promote your employer branding with an innovative recruitment process and stand out from the crowd.</p>
+              <a href="#" class="btn btn-primary">View here </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Section>
+
+    <!-- Our customers section  logos-->
+    <section class="customers-info">
+      <div class="container customers-section">
+        <div class="rom info-1">
+          <!-- Text -->
+          <div class="col-md-6">
+            <div class="text-information-2">
+              <h3>Our customers</h3>
+
+            </div>
+          </div>
+          <!-- Images -->
+          <div class="row align-items-start img-logo">
+            <div class="col">
+              <img class="fixed-size-img" src="./assets/img/charge_positive.png" alt="logo">
+            </div>
+            <div class="col">
+              <img class="fixed-size-img" src="./assets/img/innovation_norway.png" alt="logo">
+            </div>
+            <div class="col">
+              <img class="fixed-size-img" src="./assets/img/founder-institute1.png" alt="logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer class="footer-39201">
+    <div class="container">
+      <div class="row">
+        <div class="col-md mb-4 mb-md-0">
+          <h3>Our visit location is:</h3>
+          <ul class="list-unstyled nav-links">
+            <li><a href="#">Propl AS
+                Gründergarasjen, OsloMet Pilestredet 52, 0167 Oslo</a></li>
+
           </ul>
         </div>
-      </nav>
-    </div>
-  </header>
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div
-          class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate"
-          data-aos="fade-up" data-aos-delay="200">
-          <h1>Better Solutions For Your Business</h1>
-          <h2>We are team of talented designers making websites with Bootstrap</h2>
-          <div class="d-flex justify-content-center justify-content-lg-start"> <a href="#about"
-              class="btn-get-started scrollto">Get Started</a> <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-              class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a></div>
+        <div class="col-md mb-4 mb-md-0">
+          <h3>About</h3>
+          <ul class="list-unstyled nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-          <img
-            src="./assets/img/hreo-img.png"
-            class="img-fluid animated" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="card-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="card-image-1.jpg" alt="Lauren Ibsen" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Card Title</h5>
-              <p class="card-text">Some text about Lauren Ibsen</p>
-              <a href="#" class="btn btn- secondary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="card-image-2.jpg" alt="Lauren Ibsen" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Card Title</h5>
-              <p class="card-text">Some text about Lauren Ibsen</p>
-              <a href="#" class="btn btn-secondary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="card-image-3.jpg" alt="Lauren Ibsen" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Card Title</h5>
-              <p class="card-text">Some text about Lauren Ibsen</p>
-              <a href="#" class="btn btn-secondary">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        <div class="col-md mb-4 mb-md-0">
+          <h3>if you have any further questions, please Contact</h3>
+          <ul class="list-unstyled nav-links">
+            <li><a href="#">hello@propl.net</a></li>
 
-  </section>
-  <footer>
-    <div class="container">
-      <p class="text-center">Copyright © Lauren Ibsen 2020</p>
+          </ul>
+        </div>
+        <div class="col-md mb-4 mb-md-0">
+          <h3>Legal</h3>
+          <ul class="list-unstyled nav-links">
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Legality</a></li>
+            <li><a href="#">Author License</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h3>Subscribe to our newsletter</h3>
+          <p class="mb-4">Monthly digest of what's new and exciting from us.</p>
+          <form action="#" class="subscribe col-9">
+            <input type="email" class="form-control py-3 text-bg-light" id="inp1"  placeholder="Enter your e-mail">
+            <input type="submit" class="btn btn-submit" value="Send">
+          </form>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12">
+          <div class="border-top my-5"></div>
+        </div>
+        <div class="col-md-6">
+          <p><small>© 2019 All Rights Reserved.</small></p>
+        </div>
+        <div class="col-md-6 text-md-right">
+          <ul class="social list-unstyled">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+
+
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
