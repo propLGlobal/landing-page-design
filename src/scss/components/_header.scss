@@ -1,0 +1,24 @@
+.navbar {
+  padding: 1px 0;
+}
+
+.nav-link {
+  margin-left: 41px;
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  &:hover {
+    color: var(--primary);
+  }
+}
+
+.navbar-nav .nav-link .active {
+  font-weight: bold;
+  color: black;
+}
+
+.text p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgba(57, 52, 52, 0.823);
+}

@@ -1,0 +1,21 @@
+.btn {
+  border-radius: 5px;
+}
+
+.btn-secondary,
+.btn-outline-secondary,
+.btn-primary{
+  padding: 12px 20px ;
+}
+
+.btn-primary{
+  background-color: var(--primary-btn-col-1)
+}
+
+.btn-secondary{
+  background-color: var(--secondary-btn-col-2);
+ 
+}
+.btn-primary:hover{
+  background-color: var(--primary-btn-col-2);
+}

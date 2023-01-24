@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+:root {
+  --primary: #072a6c;
+  --primary-btn-col-1: #994e08;
+  --secondary-btn-col-2: #daa370;
+  --h1-text-color: #fff;
+  --p-text-color: rgba(255, 255, 255, 0.68);
+
+  $footer-background-light-grey: #08265E;
+  $footer-background-grey: #1a1d20;
+  $social-buttons-circle-dark-grey: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #fff;
+}

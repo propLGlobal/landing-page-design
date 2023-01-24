@@ -1,0 +1,81 @@
+// scss-docs-end theme-color-variabl
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #994E08;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$blue: #072A6C;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+);
+// scss-docs-end theme-colors-map
+
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret: true;
+$enable-rounded: true;
+$enable-shadows: false;
+$enable-gradients: false;
+$enable-transitions: true;
+$enable-reduced-motion: true;
+$enable-smooth-scroll: true;
+$enable-grid-classes: true;
+$enable-container-classes: true;
+$enable-cssgrid: false;
+$enable-button-pointers: true;
+$enable-rfs: true;
+$enable-validation-icons: true;
+$enable-negative-margins: false;
+$enable-deprecation-messages: true;
+$enable-important-utilities: true;
+
+// scss-docs-start border-radius-variables
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+$border-radius-xl: 0;
+$border-radius-2xl: 0;
+$border-radius-pill: 0;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
