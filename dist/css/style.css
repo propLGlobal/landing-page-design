@@ -11235,6 +11235,63 @@ section.customers-info .text-information-2 {
   cursor: pointer;
 }
 
+.get_in_touch-new .title {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 2em;
+  line-height: 48px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #f4524d, #5543ca);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+.get_in_touch-new .container {
+  display: flex;
+  justify-content: center;
+}
+.get_in_touch-new .container .subscribe .form-label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.get_in_touch-new .container .subscribe .form-control {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.get_in_touch-new .container .subscribe .checkbox {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+.get_in_touch-new .container .subscribe .checkbox input[type=checkbox] {
+  margin-right: 10px;
+}
+.get_in_touch-new .container .subscribe p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.get_in_touch-new .container .subscribe .form-field {
+  display: flex;
+  justify-content: center;
+}
+.get_in_touch-new .container .subscribe .form-field .submit-btn {
+  display: inline-block;
+  background: linear-gradient(125deg, #a72879, #064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   section.hero {
     padding: 60px 0;
