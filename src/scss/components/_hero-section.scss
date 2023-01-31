@@ -16,6 +16,7 @@ section.hero {
 
 .buttons {
   margin-top: 40px;
+  margin-bottom: 10px;
 
   .btn {
     font-size: 1.6rem;
@@ -176,7 +177,7 @@ section.customers-info .text-information-2 {
 .info-1 {
   margin-top: -189px;
   padding: 110px 0;
- margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .text-information-2 h3 {
   font-size: 3rem;
@@ -278,12 +279,12 @@ section.customers-info .text-information-2 {
   color: $gray-600;
 }
 
-// input fields section 
+// input fields section
 
-.form-control{
-  background-color:  rgba(255, 255, 255, 1);
-  border:rgba(0, 0, 0, 0.2);
-  border-radius: 10px 
+.form-control {
+  background-color: rgba(255, 255, 255, 1);
+  border: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 // About section
@@ -294,11 +295,11 @@ section.customers-info .text-information-2 {
 }
 
 .card-20 {
-  background-color: rgba(135, 139, 141, 1);
+  background-color: rgba(5, 49, 71, 1);
   border-top: 10px solid rgba(236, 170, 188, 1);
 }
 .card-30 {
-  background-color: rgba(113, 37, 3, 0.29);
+  background-color: rgba(22, 8, 2, 0.29);
   border-top: 10px solid rgba(103, 139, 179, 1);
 }
 .card-40 {
@@ -332,7 +333,78 @@ section.customers-info .text-information-2 {
   color: #fff;
 }
 
-// About section
+// Contact section
+.get_in_touch {
+  width: 1170px;
+  margin: 50px auto;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.1);
+}
+
+.get_in_touch .title {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 48px;
+  line-height: 48px;
+  padding-bottom: 20px;
+  background: linear-gradient(to right, #f4524d, #5543ca);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.contact-form .input-text {
+  width: 100%;
+  height: 64px;
+  // border-bottom: 2px solid rgba(7, 42, 108, 1);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  display: block;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  transform: translateY(-24px);
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .label {
+  position: absolute;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ccc;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+  left: 20px;
+}
+
+.contact-form .submit-btn {
+  display: inline-block;
+  background: linear-gradient(125deg, #a72879, #064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+
 
 @media (max-width: 768px) {
   section.hero {
@@ -381,5 +453,38 @@ section.customers-info .text-information-2 {
 
   .image-figure {
     border-radius: 24px 24px 60px 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .get_in_touch {
+    width: 100%;
+    margin: 50px 0;
+  }
+  .contact-form .input-text {
+    height: 48px;
+  }
+  .contact-form .label {
+    bottom: 7px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contact-form .submit-btn {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .get_in_touch .title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .contact-form .input-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contact-form .label {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
