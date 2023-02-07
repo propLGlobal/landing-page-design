@@ -118,7 +118,7 @@ img {
   object-fit: cover;
 }
 
-@media (min-width: $md) {
+@media (min-width: 768px) {
   body {
     font-size: 1.125rem;
   }
